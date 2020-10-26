@@ -21,6 +21,9 @@ export default {
 
 <style>
   @import "./assets/css/reset.css";
+  #app{
+    max-height: 99999px;
+  }
   #bag{
     width: 750px;
     position: fixed;

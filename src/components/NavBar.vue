@@ -22,8 +22,10 @@
 <style scoped>
   #nav{
     display: flex;
-    background: #333238;
+    background: #333237;
     color:#fff;
+    font-size: 32px;
+
   }
   #nav .navItems{
     margin:0 auto;

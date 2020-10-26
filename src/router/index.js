@@ -6,6 +6,8 @@ import AnswerCorrect from '../views/AnswerCorrect'
 import LuckDraw from '../views/luckdraw'
 import GongXi from '../views/gongXi'
 import JiaYouQuan from '../views/jiaYouQuan'
+import Regret from '../views/regret'
+import PlayAndBuy from '../views/playAndBuy'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +36,16 @@ export default new Router({
       path:'/jiayouquan',
       name:'jiayouquan',
       component:JiaYouQuan
+    },
+    {
+      path:'/regret',
+      name:'regret',
+      component:Regret
+    },
+    {
+      path:'/playandbuy',
+      name:'playandbuy',
+      component:PlayAndBuy
     }
   ]
 })

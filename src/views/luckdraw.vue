@@ -60,9 +60,11 @@
                 clearInterval(this.jishi);
                 this.zhiXingCiShu = 0
                 this.use = true
+                this.$router.push({name:'regret'})
 
               }
-              ;
+
+
               break;
 
         case
@@ -71,8 +73,11 @@
           if (this.zhiXingCiShu >= 50) { //当定时器执行到一定次数，停止执行
             clearInterval(this.jishi);this.zhiXingCiShu = 0
             this.use = true
+            this.$router.push({name:'regret'})
+
           }
           ;
+
           break;
         case
           suiji > 5 && suiji <= 7
@@ -80,8 +85,11 @@
           if (this.zhiXingCiShu >= 51) { //当定时器执行到一定次数，停止执行
             clearInterval(this.jishi);this.zhiXingCiShu = 0
             this.use = true
+            this.$router.push({name:'regret'})
+
           }
           ;
+
           break;
         case
           suiji > 7 && suiji <= 8
@@ -89,8 +97,11 @@
           if (this.zhiXingCiShu >= 52) { //当定时器执行到一定次数，停止执行
             clearInterval(this.jishi);this.zhiXingCiShu = 0
             this.use = true
+            this.$router.push({name:'regret'})
+
           }
           ;
+
           break;
         case
           suiji > 8 && suiji <= 9
@@ -98,8 +109,11 @@
           if (this.zhiXingCiShu >= 53) { //当定时器执行到一定次数，停止执行
             clearInterval(this.jishi);this.zhiXingCiShu = 0
             this.use = true
+            this.$router.push({name:'regret'})
+
           }
           ;
+
           break;
         case
           suiji > 9 && suiji <= 9.5
@@ -107,8 +121,11 @@
           if (this.zhiXingCiShu >= 54) { //当定时器执行到一定次数，停止执行
             clearInterval(this.jishi);this.zhiXingCiShu = 0
             this.use = true
+            this.$router.push({name:'regret'})
+
           }
           ;
+
           break;
         case
           suiji > 9.5 && suiji <= 9.8
